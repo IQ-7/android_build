@@ -111,12 +111,12 @@ PRODUCT_SYSTEM_PROPERTIES += \
     pm.dexopt.install-fast=skip \
     pm.dexopt.install-bulk=speed \
     pm.dexopt.install-bulk-secondary=quicken \
-    pm.dexopt.install-bulk-downgraded=quicken \
+    pm.dexopt.install-bulk-downgraded=speed-profile \
     pm.dexopt.install-bulk-secondary-downgraded=quicken \
     pm.dexopt.bg-dexopt=speed-profile \
-    pm.dexopt.ab-ota=speed-profile \
-    pm.dexopt.inactive=speed \
-    pm.dexopt.cmdline=speed \
+    pm.dexopt.ab-ota=speed \
+    pm.dexopt.inactive=speed-profile \
+    pm.dexopt.cmdline=speed-profile \
     pm.dexopt.shared=speed
 
 # Pass file with the list of updatable boot class path packages to dex2oat.
