@@ -49,8 +49,8 @@ PRODUCT_VENDOR_PROPERTIES := \
     ro.config.notification_sound?=pixiedust.ogg
 endif
 
-# Put en_US first in the list, so make it default.
-PRODUCT_LOCALES := en_US
+# Put in_ID first in the list, so make it default.
+PRODUCT_LOCALES := in_ID
 
 # Get some sounds
 ifeq ($(BANANA_BUILD),)
